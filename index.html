@@ -10,6 +10,13 @@
     </noscript>
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+
+    <style type="text/css">
+        /*#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }*/
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+
     <script type='text/javascript'>(function ($) {
         window.fnames = new Array();
         window.ftypes = new Array();
@@ -39,47 +46,32 @@
     <!-- Intro -->
     <section id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">
-            <h1>DSSC</h1>
-            <p>Data Science Students Club</p>
-
-            <!--<form method="post" action="#">
-                    <div class="inner">
-                        <div class="fields">
-                            <div class="field" style="padding-bottom:20px">
-                                <label for="email">Email</label>
-                                <input type="text" name="email" id="email" />
-                            </div>
-                        </div>
-
-                            <ul class="actions">
-                                <li><a href="" class="button submit">Subscribe</a></li>
-                            </ul>
-
-                    </div>
-            </form>-->
+            <!--<h1>DSSC</h1>
+            <p>Data Science Students Club</p>-->
+            <img id="club-logo" src="assets/css/images/logo.png">
+            <!-- Begin Signup Form -->
             <div id="mc_embed_signup">
-                <form action="https://github.us18.list-manage.com/subscribe/post?u=2808b994b8b9d1727fba70ba4&amp;id=eba17dd1ed"
-                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                      target="_blank" novalidate>
+                <form action="https://github.us18.list-manage.com/subscribe/post?u=2808b994b8b9d1727fba70ba4&amp;id=eba17dd1ed" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div id="mc_embed_signup_scroll">
+                        <h2></h2>
                         <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email</label>
+                            <label for="mce-NAME">Name</label>
+                            <input type="text" value="" name="NAME" class="required" id="mce-NAME">
+                        </div>
+                        <div class="mc-field-group" style="padding-bottom:20px">
+                            <label for="mce-EMAIL">Email</span></label>
                             <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                         </div>
                         <div id="mce-responses" class="clear">
                             <div class="response" id="mce-error-response" style="display:none"></div>
                             <div class="response" id="mce-success-response" style="display:none"></div>
                         </div>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                                  name="b_2808b994b8b9d1727fba70ba4_eba17dd1ed"
-                                                                                                  tabindex="-1"
-                                                                                                  value=""></div>
-                        <div class="actions clear" style="padding-top:20px"><input type="submit" value="Subscribe"
-                                                                           name="subscribe" id="mc-embedded-subscribe"
-                                                                           class="button"></div>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2808b994b8b9d1727fba70ba4_eba17dd1ed" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                     </div>
                 </form>
             </div>
+            <!--End Signup Form-->
         </div>
     </section>
     <!-- Footer -->
