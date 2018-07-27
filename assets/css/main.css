@@ -3921,3 +3921,18 @@ input, select, textarea {
 			}
 
 		}*/
+
+
+	#unimelb-club-logo {
+	}
+		#unimelb-club-logo {
+			width: 500px; margin-left: auto; margin-right: auto; text-align: center;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#unimelb-club-logo {
+				width: 280px;
+			}
+
+		}
