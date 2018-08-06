@@ -21,7 +21,9 @@
         canvas = document.getElementById('demo-canvas');
         canvas.width = width;
         canvas.height = height;
-        ctx = canvas.getContext('2d');
+        ctx = canvas.getContext('2d',{
+            alpha: true
+        });
 
         /*var background = new Image();
         background.src = "css/images/logo.png";
@@ -29,8 +31,8 @@
 
         // create points
         points = [];
-        for(var x = 0; x < width; x = x + width/20) {
-            for(var y = 0; y < height; y = y + height/20) {
+        for(var x = 0; x < width; x = x + width/30) {
+            for(var y = 0; y < height; y = y + height/30) {
                 /*var px = x + Math.random()*width/15;*/
                 var px = x + Math.random()*width/20;
                 var py = y + Math.random()*height/20;
